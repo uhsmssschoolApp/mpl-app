@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:mpl_app/consts/consts.dart';
 import 'package:mpl_app/pages/book%20page/book.dart';
 import 'package:mpl_app/pages/home%20page/home.dart';
-import 'package:mpl_app/pages/more.dart';
+import 'package:mpl_app/pages/more%20page/more.dart';
 
 class Nav extends StatefulWidget {
   const Nav({Key? key}) : super(key: key);

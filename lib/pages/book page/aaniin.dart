@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:mpl_app/consts/consts.dart';
 
-class Angus extends StatelessWidget {
-  const Angus({ Key? key }) : super(key: key);
+class Aaniin extends StatelessWidget {
+  const Aaniin({ Key? key }) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -20,7 +20,7 @@ class Angus extends StatelessWidget {
             width: 1000,
             child: ClipRRect(
               borderRadius: BorderRadius.circular(16),
-              child: Image.network('https://www.markham.ca/wps/wcm/connect/markham/4bce2c23-3de5-46f3-9ed9-6b007cc41a00/angus+750x350.png?MOD=AJPERES&CACHEID=ROOTWORKSPACE.Z18_2QD4H901OGV160QC8BLCRJ1001-4bce2c23-3de5-46f3-9ed9-6b007cc41a00-nHOVx3P',
+              child: Image.network('https://www.markham.ca/wps/wcm/connect/markham/741df076-457e-4630-952b-e2c838e72605/aaniin+750x350.png?MOD=AJPERES&CACHEID=ROOTWORKSPACE.Z18_2QD4H901OGV160QC8BLCRJ1001-741df076-457e-4630-952b-e2c838e72605-nHKrF63',
                 fit: BoxFit.fill,
                 ),
               ),
@@ -30,7 +30,7 @@ class Angus extends StatelessWidget {
               const Padding(
                 padding: EdgeInsets.fromLTRB(15,0,0,0),
                 child: Text(
-                  'Angus Glen',
+                  'Aaniin',
                   style: TextStyle(
                     color: Colors.black,
                     fontSize: 20,
