@@ -7,36 +7,31 @@ class Upcoming extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Padding(
-      padding: const EdgeInsets.fromLTRB(kSidePadding, 20, kSidePadding, 0),
+      padding: const EdgeInsets.fromLTRB(kSidePadding, 0, kSidePadding, 0),
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const Text(
-            'Upcoming Bookings',
-            style: TextStyle(
-              fontSize: 23,
-              color: Colors.white,
-            ),
-          ),
           Container(
             margin: EdgeInsets.fromLTRB(0, 10, 0, 0),
             width: 1000,
-            height: 200,
+            height: 580,
             decoration: BoxDecoration(
               border: Border.all(width: 1, color: Colors.transparent),
-              borderRadius: const BorderRadius.all(Radius.circular(18)),
+              borderRadius: const BorderRadius.all(Radius.circular(22)),
               color: Colors.white,
             ),
-            child: const Padding(
-              padding: EdgeInsets.all(kSidePadding),
+            child: Padding(
+              padding: EdgeInsets.fromLTRB(20,20,20, 0),
               child: Text(
-                'i eat fat shit every day',
+                'Upcoming Bookings',
                 style: TextStyle(
-                  color: Colors.black
+                  fontSize: 25,
+                  color: Colors.black,
+                  fontWeight: FontWeight.bold
                 ),
               ),
-            ),
-          )
+             ),
+          ),
         ],
       ),
     );

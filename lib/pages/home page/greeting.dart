@@ -16,7 +16,7 @@ class Greeting extends StatelessWidget {
               const Text(
                 'Good Morning,',
                 style: TextStyle(
-                  fontSize: 33,
+                  fontSize: 35,
                   color: Colors.white,
                   fontWeight: FontWeight.bold,
                 ),
@@ -34,7 +34,7 @@ class Greeting extends StatelessWidget {
           const Text(
             'Sarina Li',
             style: TextStyle(
-              fontSize: 23,
+              fontSize: 27,
               color: Colors.white,
             ),
           ),
