@@ -30,38 +30,41 @@ class BigCalendar extends StatelessWidget {
       padding: const EdgeInsets.fromLTRB(kSidePadding, 8, kSidePadding, 8),
       child: Row(
         children: [
-          Container(
-            margin: EdgeInsets.fromLTRB(0, 0, 0, 0),
-            decoration: BoxDecoration(
-              border: Border.all(width: 1, color: Colors.transparent),
-              borderRadius: const BorderRadius.all(Radius.circular(16)),
-              color: weekday == 1 ? themeSecondary : Colors.transparent,
-            ),
-            child: Padding(
-              padding: const EdgeInsets.fromLTRB(6, 8, 6, 6),
-              child: Column(
-                children: [
-                  Padding(
-                    padding: const EdgeInsets.fromLTRB(0, 0, 0, 4),
-                    child: Text(
-                      'MO',
-                      style: TextStyle(
-                        color: weekday == 1 ? themeSecondary : Colors.white,
-                        fontSize: 18,
-                       fontWeight: FontWeight.bold
+          TextButton(
+            onPressed: null,
+            child: Container(
+              margin: EdgeInsets.fromLTRB(0, 0, 0, 0),
+              decoration: BoxDecoration(
+                border: Border.all(width: 1, color: Colors.transparent),
+                borderRadius: const BorderRadius.all(Radius.circular(16)),
+                color: weekday == 1 ? themeSecondary : Colors.transparent,
+              ),
+              child: Padding(
+                padding: const EdgeInsets.fromLTRB(6, 8, 6, 6),
+                child: Column(
+                  children: [
+                    Padding(
+                      padding: const EdgeInsets.fromLTRB(0, 0, 0, 4),
+                      child: Text(
+                        'MO',
+                        style: TextStyle(
+                          color: weekday == 1 ? themeSecondary : Colors.white,
+                          fontSize: 18,
+                         fontWeight: FontWeight.bold
+                        ),
                       ),
                     ),
-                  ),
-                  Text(
-                    '${monday}',
-                    style: TextStyle(
-                      color: weekday == 1 ? darkThemeBg : themeSecondary,
-                      fontSize: 20,
-                      fontWeight: FontWeight.bold
-                    ),
-                  )
-                ],
-               ),
+                    Text(
+                      '${monday}',
+                      style: TextStyle(
+                        color: weekday == 1 ? darkThemeBg : themeSecondary,
+                        fontSize: 20,
+                        fontWeight: FontWeight.bold
+                      ),
+                    )
+                  ],
+                 ),
+              ),
             ),
           ),
           Expanded(flex: 1,child: Container()),
