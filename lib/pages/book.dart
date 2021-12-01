@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:mpl_app/pages/book%20page/aaniin.dart';
-import 'package:mpl_app/pages/book%20page/angus.dart';
-import 'package:mpl_app/pages/book%20page/cornell.dart';
+import 'package:mpl_app/pages/book_page/aaniin.dart';
+import 'package:mpl_app/pages/book_page/angus.dart';
+import 'package:mpl_app/pages/book_page/cornell.dart';
 import 'package:mpl_app/utils/nav.dart';
-import 'heading.dart';
+import 'book_page/heading.dart';
 
 class Book extends StatefulWidget {
   const Book({ Key? key }) : super(key: key);

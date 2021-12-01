@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:mpl_app/pages/more%20page/past.dart';
+import 'package:mpl_app/pages/more_page/past.dart';
 import 'package:mpl_app/utils/nav.dart';
-import 'title.dart';
+import 'more_page/title.dart';
 
 class More extends StatefulWidget {
   const More({Key? key}) : super(key: key);
