@@ -3,9 +3,15 @@ import 'package:mpl_app/pages/book.dart';
 import 'package:mpl_app/pages/home.dart';
 import 'package:mpl_app/pages/more.dart';
 import 'package:mpl_app/theme/themedata.dart';
+import 'package:firebase_core/firebase_core.dart';
 
 void main() {
+  // await
   runApp(const MyApp());
+}
+
+Future<void> init() async {
+  // await Firebase.initializeApp();
 }
 
 class MyApp extends StatelessWidget {

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "522025489020",
+    "project_id": "mplapp-21b2c",
+    "storage_bucket": "mplapp-21b2c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:522025489020:android:d149d7a635a5cf56646ff9",
+        "android_client_info": {
+          "package_name": "com.doriansarina.mpl_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "522025489020-0hnocb3gv54nrre1vm03148dguh3774p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA0iTI80FgfR7KFVA5mVZz7mTThEgkS2K4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "522025489020-0hnocb3gv54nrre1vm03148dguh3774p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
